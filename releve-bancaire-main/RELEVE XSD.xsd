@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+   
+        <xs:simpleType name="RIBType">
+            <xs:restriction base="xs:string">
+                <xs:pattern value="\d{26}"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+        <xs:simpleType name="OperationEnumType">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="CREDIT"/>
+                <xs:enumeration value="DEBIT"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+        <xs:complexType name="OperationType">
+            <xs:attribute name="type" type="OperationEnumType" use="required"/>
+            <xs:attribute name="date" type="xs:date" use="required"/>
+            <xs:attribute name="montant" type="xs:decimal" use="required"/>
+            <xs:attribute name="description" type="xs:string" use="required"/>
+        </xs:complexType>
+        
+        <xs:complexType name="OperationsType">
+            <xs:sequence>
+                <xs:element name="operation" type="OperationType" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="dateDebut" type="xs:date" use="required"/>
+            <xs:attribute name="dateFin" type="xs:date" use="required"/>
+        </xs:complexType>
+        
+        <xs:element name="releve">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="dateReleve" type="xs:date"/>
+                    <xs:element name="solde" type="xs:integer"/>
+                    <xs:element name="operations" type="OperationsType"/>
+                </xs:sequence>
+                <xs:attribute name="RIB" type="RIBType" use="required"/>
+            </xs:complexType>
+        </xs:element>
+        
+    </xs:schema>
+
+
+
+

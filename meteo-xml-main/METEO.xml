@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE meteo SYSTEM "file:/C:/Users/Hp/Desktop/METEO/METEO.dtd">
+<meteo>
+    <mesure date="2024-03-13">
+        <ville nom="CASABLANCA" temperature="28"/>
+        <ville nom="MARRAKECH" temperature="40"/>
+        <ville nom="TANGER" temperature="30"/>
+        <ville nom="RABAT" temperature="29"/>
+        <ville nom="MEDIA" temperature="30"/>
+        <ville nom="OUEJDA" temperature="40"/>
+        <ville nom="DAKHLA" temperature="50"/>
+        <ville nom="TETOUAN" temperature="30"/>
+        <ville nom="EL JADIDA" temperature="29"/>
+    </mesure>
+    <mesure date="2024-03-14">
+        <ville nom="CASABLANCA" temperature="26"/>
+        <ville nom="MARRAKECH" temperature="30"/>
+        <ville nom="TANGER" temperature="28"/>
+        <ville nom="RABAT" temperature="31"/>
+        <ville nom="MEDIA" temperature="20"/>
+        <ville nom="OUEJDA" temperature="30"/>
+        <ville nom="DAKHLA" temperature="40"/>
+        <ville nom="TETOUAN" temperature="27"/>
+        <ville nom="EL JADIDA" temperature="20"/>
+    </mesure>
+</meteo>

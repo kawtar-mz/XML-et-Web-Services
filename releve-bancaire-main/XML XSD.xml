@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Hp/Desktop/RELEVE%20BANCAIRE/RELEVE%20XSD.xsd" RIB="12345567890986654432156890">
+    <dateReleve>2024-03-13</dateReleve>
+    
+    <solde>123445788</solde>
+    <operations dateDebut="2024-03-13" dateFin="2024-06-18">
+        <operation type="CREDIT" date="2024-03-13" montant="234566" description="VIREMENT RECU A LETRANGER "/>
+        <operation type="DEBIT" date="2024-05-20" montant="20000" description="ACHAT PAR CARTE DE PAIEMENT"/>
+        <operation type="CREDIT" date="2024-06-18" montant="100000" description="VERSEMENT DEPLACEE PAR UN TIERS"/>
+    </operations>
+</releve>

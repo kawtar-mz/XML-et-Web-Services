@@ -1,0 +1,1975 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0512.1609                               -->
+<workbook original-version='18.1' source-build='2026.1.5 (20261.26.0512.1609)' version='18.1' xml:base='https://localhost:8080' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees?rev=2.8' id='HREmpoyees' path='/workbooks' revision='2.8' />
+  <preferences />
+  <datasources>
+    <datasource caption='Employees (HR_dataset)' inline='true' name='federated.1rgdl3n0norabs162obc81cpk0es' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HR_dataset' name='excel-direct.01yqo7d0lvy79e1bd7a510lhjs7i'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/01n338x174wmyh19jbrcg1gx4w4m/HR_dataset.xlsx' interpretationMode='0' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.01yqo7d0lvy79e1bd7a510lhjs7i' name='Employees' table='[Employees$]' type='table'>
+          <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='string' name='Complete Name' ordinal='1' />
+            <column datatype='string' name='Department' ordinal='2' />
+            <column datatype='string' name='Employement Status' ordinal='3' />
+            <column datatype='string' name='Location' ordinal='4' />
+            <column datatype='integer' name='Terminated' ordinal='5' />
+            <column datatype='integer' name='Age' ordinal='6' />
+            <column datatype='string' name='Birthdate' ordinal='7' />
+            <column datatype='string' name='Gender' ordinal='8' />
+            <column datatype='date' name='Hire Date' ordinal='9' />
+            <column datatype='string' name='Jobtitle' ordinal='10' />
+            <column datatype='string' name='Location City' ordinal='11' />
+            <column datatype='string' name='Location State' ordinal='12' />
+            <column datatype='date' name='Termdate' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N10001:no:A1:N10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complete Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Complete Name]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Complete Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employement Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employement Status]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Employement Status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terminated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terminated]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Terminated</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birthdate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Birthdate]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Birthdate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hire Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Hire Date]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Hire Date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jobtitle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Jobtitle]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Jobtitle</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location City]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Location City</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location State]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Location State</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Termdate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Termdate]</local-name>
+            <parent-name>[Employees]</parent-name>
+            <remote-alias>Termdate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+      <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Age (classe))' hidden='true' name='[Action (Age (classe))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Age (classe):ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Department)' hidden='true' name='[Action (Department)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Department]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Location City)' hidden='true' name='[Action (Location City)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Location City]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Location State)' hidden='true' name='[Action (Location State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Location State]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Location State, Location City'>
+          <field>[Location State]</field>
+          <field>[Location City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='Employees_FC66C24DAD8E461FAFE3E1E9379A1105' units='records'>
+        <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Extracts/federated_1rgdl3n0norabs162obc81.hyper' default-settings='yes' schema='Extract' tablename='Extract' update-time='06/20/2026 04:09:13 PM'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Employees (HR_dataset)' increment-value='%null%' refresh-type='create' rows-inserted='22211' timestamp-start='2026-06-20 16:09:11.906' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22211</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Complete Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Complete Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Complete Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22211</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Department</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employement Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Employement Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employement Status</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Terminated</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Terminated]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Terminated</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Employees</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Employees</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Birthdate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Birthdate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Birthdate</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7958</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hire Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Hire Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hire Date</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Employees</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>6220</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Jobtitle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Jobtitle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Jobtitle</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>258</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location City</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location State</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Employees</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Termdate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Termdate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Termdate</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Employees</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>4103</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Etats-Unis&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Employees' id='Employees_FC66C24DAD8E461FAFE3E1E9379A1105'>
+            <properties context=''>
+              <relation connection='excel-direct.01yqo7d0lvy79e1bd7a510lhjs7i' name='Employees' table='[Employees$]' type='table'>
+                <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Id' ordinal='0' />
+                  <column datatype='string' name='Complete Name' ordinal='1' />
+                  <column datatype='string' name='Department' ordinal='2' />
+                  <column datatype='string' name='Employement Status' ordinal='3' />
+                  <column datatype='string' name='Location' ordinal='4' />
+                  <column datatype='integer' name='Terminated' ordinal='5' />
+                  <column datatype='integer' name='Age' ordinal='6' />
+                  <column datatype='string' name='Birthdate' ordinal='7' />
+                  <column datatype='string' name='Gender' ordinal='8' />
+                  <column datatype='date' name='Hire Date' ordinal='9' />
+                  <column datatype='string' name='Jobtitle' ordinal='10' />
+                  <column datatype='string' name='Location City' ordinal='11' />
+                  <column datatype='string' name='Location State' ordinal='12' />
+                  <column datatype='date' name='Termdate' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.1rgdl3n0norabs162obc81cpk0es'>
+      <datasources>
+        <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]'>
+        <groupfilter function='level-members' level='[none:Gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filtre 1 (généré)' name='[Action1_7D462352DF1241C2B386BACD7B26BA81]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employees HR' type='sheet' worksheet='Employees/Department' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employees HR' />
+      </command>
+    </action>
+    <action caption='Filtre 2 (généré)' name='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employees HR' type='sheet' worksheet='Employees/State' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employees HR' />
+      </command>
+    </action>
+    <action caption='Filtre 3 (généré)' name='[Action3_594AD00F49514F738C15B30BC11FF5CF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employees HR' type='sheet' worksheet='Tree Map' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employees HR' />
+      </command>
+    </action>
+    <action caption='Filtre 4 (généré)' name='[Action4_EB051896A7E6485CB129FFC7177F38F7]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employees HR' type='sheet' worksheet='Histogramme' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employees HR' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Active Employees'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/ActiveEmployees?rev=' id='131263842' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Employement Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Id]' derivation='Count' name='[cnt:Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Employement Status]' derivation='None' name='[none:Employement Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Employement Status:nk]'>
+            <groupfilter function='member' level='[none:Employement Status:nk]' member='&quot;Active&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Employement Status:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='14' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[cnt:Id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C3E4DCB9-B540-42CB-B1F7-CC80B49514B8}' />
+    </worksheet>
+    <worksheet name='Department Count'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/DepartmentCount?rev=' id='131264006' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Department]' derivation='CountD' name='[ctd:Department:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='14' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[ctd:Department:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E35A2ED4-1669-4409-9EE9-A8DEBEE7672E}' />
+    </worksheet>
+    <worksheet name='Employee N°'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/Feuille1?rev=' id='131263790' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Id]' derivation='Count' name='[cnt:Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='14' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[cnt:Id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{53C9AE9E-688F-4855-BFA9-9D6D58BFDBF2}' />
+    </worksheet>
+    <worksheet name='Employees/Department'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/EmployeesDepartment?rev=' id='131264007' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' included-values='in-range'>
+            <min>52</min>
+            <max>6686</max>
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]'>
+            <groupfilter function='level-members' level='[none:Department:nk]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]</rows>
+        <cols>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]</cols>
+      </table>
+      <simple-id uuid='{04D7E014-432A-4D44-B2CE-1A3D7EC45A9F}' />
+    </worksheet>
+    <worksheet name='Employees/State'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/EmployeesState?rev=' id='131264008' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location State]' derivation='None' name='[none:Location State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1rgdl3n0norabs162obc81cpk0es].[Longitude (generated)]' field-type='quantitative' max='-6584392.6931381263' min='-11876297.305026855' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1rgdl3n0norabs162obc81cpk0es].[Latitude (generated)]' field-type='quantitative' max='5959895.590674229' min='3786434.7003437667' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location State:nk]' />
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' />
+              <lod column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location State:nk]' />
+              <color column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' />
+              <geometry column='[federated.1rgdl3n0norabs162obc81cpk0es].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rgdl3n0norabs162obc81cpk0es].[Latitude (generated)]</rows>
+        <cols>[federated.1rgdl3n0norabs162obc81cpk0es].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{FD3C67A1-EC49-42A4-A856-8452A08C403E}' />
+    </worksheet>
+    <worksheet name='Histogramme'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/Histogramme?rev=' id='131264955' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Age]' derivation='Count' name='[cnt:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rgdl3n0norabs162obc81cpk0es].[cnt:Age:qk]</rows>
+        <cols>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Age (classe):qk]</cols>
+        <show-full-range>
+          <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Age (classe)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{719AF920-6BA2-44F9-A7C3-58E145E27F18}' />
+    </worksheet>
+    <worksheet name='Tendence'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/Feuille7?rev=' id='131264110' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Hire Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hire Date]' derivation='Year' name='[yr:Hire Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]'>
+            <groupfilter function='level-members' level='[Location City]' user:ui-action-filter='[Action3_594AD00F49514F738C15B30BC11FF5CF]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location City)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <reference-line axis-column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]</rows>
+        <cols>[federated.1rgdl3n0norabs162obc81cpk0es].[yr:Hire Date:ok]</cols>
+      </table>
+      <simple-id uuid='{83BCE826-D434-49F4-9197-05F7ABC5A098}' />
+    </worksheet>
+    <worksheet name='Tree Map'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/Feuille6?rev=' id='131264009' path='/workbooks/HREmpoyees' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+            <column aggregation='None' datatype='integer' name='[Age (classe)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='4' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Location State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (classe)]' derivation='None' name='[none:Age (classe):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location City]' derivation='None' name='[none:Location City:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]'>
+            <groupfilter function='level-members' level='[none:Age (classe):ok]' user:ui-action-filter='[Action4_EB051896A7E6485CB129FFC7177F38F7]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]'>
+            <groupfilter function='level-members' level='[Department]' user:ui-action-filter='[Action1_7D462352DF1241C2B386BACD7B26BA81]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]'>
+            <groupfilter function='level-members' level='[Location State]' user:ui-action-filter='[Action2_70E37BCC90B9414D820F0F71B17DDC8F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Department)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Location State)]</column>
+            <column>[federated.1rgdl3n0norabs162obc81cpk0es].[Action (Age (classe))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' />
+              <color column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' />
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location City:nk]' />
+              <text column='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E9D72961-4BFC-46E5-B480-FAEA72209D08}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Employees HR'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/Tableaudebord1?rev=' id='131264567' path='/workbooks/HREmpoyees' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Employees (HR_dataset)' name='federated.1rgdl3n0norabs162obc81cpk0es' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1rgdl3n0norabs162obc81cpk0es'>
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column caption='Employees' datatype='table' name='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' role='measure' type='quantitative' />
+        <column-instance column='[__tableau_internal_object_id__].[Employees_FC66C24DAD8E461FAFE3E1E9379A1105]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97512' id='14' param='horz' type-v2='layout-flow' w='98782' x='609' y='1244'>
+            <zone fixed-size='1107' h='97512' id='12' is-fixed='true' type-v2='layout-basic' w='84311' x='609' y='1244'>
+              <zone h='13994' id='8' param='horz' type-v2='layout-flow' w='84311' x='609' y='1244'>
+                <zone h='13994' id='6' type-v2='layout-basic' w='84311' x='609' y='1244'>
+                  <zone h='13994' id='3' name='Employee N°' w='21173' x='609' y='1244'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='13994' id='5' name='Active Employees' w='25514' x='21782' y='1244'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='13994' id='9' name='Department Count' w='23915' x='47296' y='1244'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='13994' id='31' type-v2='dashboard-object' w='13709' x='71211' y='1244'>
+                    <button action='tabdoc:goto-sheet window-id=&quot;{962F802E-272C-4AD9-BD66-5E1C8A264DC3}&quot;' button-type='text'>
+                      <button-visual-state>
+                        <caption>&gt; Suite</caption>
+                        <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                        <format attr='background-color' value='#b07aa1' />
+                      </button-visual-state>
+                    </button>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='41759' id='10' name='Employees/Department' w='42150' x='609' y='15238'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43857' id='11' name='Employees/State' w='42161' x='42759' y='15238'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='39661' id='16' name='Tree Map' w='21079' x='42759' y='59095'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='39661' id='18' name='Tendence' w='21082' x='63838' y='59095'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='41759' id='28' name='Histogramme' w='42150' x='609' y='56997'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='190' h='97512' id='13' is-fixed='true' param='vert' type-v2='layout-flow' w='14471' x='84920' y='1244'>
+              <zone h='17574' id='23' mode='radiolist' name='Employees/Department' param='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]' type-v2='filter' values='database' w='14471' x='84920' y='1244'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10886' id='40' name='Employees/Department' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='filter' values='database' w='14471' x='84920' y='18818'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10575' id='15' name='Employees/State' pane-specification-id='0' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='color' w='14471' x='84920' y='29704'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97512' id='51' param='vert' type-v2='layout-flow' w='98782' x='609' y='1244'>
+                <zone fixed-size='104' h='13994' id='3' is-fixed='true' name='Employee N°' w='21173' x='609' y='1244'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='104' h='13994' id='5' is-fixed='true' name='Active Employees' w='25514' x='21782' y='1244'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='104' h='13994' id='9' is-fixed='true' name='Department Count' w='23915' x='47296' y='1244'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13994' id='31' type-v2='dashboard-object' w='13709' x='71211' y='1244'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{962F802E-272C-4AD9-BD66-5E1C8A264DC3}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>&gt; Suite</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#b07aa1' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17574' id='23' mode='dropdown' name='Employees/Department' param='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]' type-v2='filter' values='database' w='14471' x='84920' y='1244'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10886' id='40' name='Employees/Department' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='filter' values='database' w='14471' x='84920' y='18818'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41759' id='10' is-fixed='true' name='Employees/Department' w='42150' x='609' y='15238'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43857' id='11' is-fixed='true' name='Employees/State' w='42161' x='42759' y='15238'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10575' id='15' name='Employees/State' pane-specification-id='0' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='color' w='14471' x='84920' y='29704'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41759' id='28' is-fixed='true' name='Histogramme' w='42150' x='609' y='56997'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39661' id='16' is-fixed='true' name='Tree Map' w='21079' x='42759' y='59095'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39661' id='18' is-fixed='true' name='Tendence' w='21082' x='63838' y='59095'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{393BE216-A7C4-4BBB-BC90-EFCBC0DBE1B3}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Employees HR 2'>
+      <repository-location derived-from='http://localhost:9100/workbooks/HREmpoyees/DSH2?rev=' id='131265149' path='/workbooks/HREmpoyees' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97512' id='8' param='horz' type-v2='layout-flow' w='98782' x='609' y='1244'>
+            <zone h='97512' id='6' type-v2='layout-basic' w='86596' x='609' y='1244'>
+              <zone h='41293' id='3' name='Tendence' w='86596' x='609' y='1244'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='56219' id='5' name='Employees/State' w='86596' x='609' y='42537'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='97512' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='12186' x='87205' y='1244'>
+              <zone h='8087' id='24' type-v2='dashboard-object' w='12186' x='87205' y='1244'>
+                <button action='tabdoc:goto-sheet window-id=&quot;{ED8BD433-2E5A-49A2-AEE2-632F76C5CAC9}&quot;' button-type='text'>
+                  <button-visual-state>
+                    <caption>&gt; Come Back</caption>
+                    <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                    <format attr='background-color' value='#b07aa1' />
+                  </button-visual-state>
+                </button>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10575' id='9' name='Employees/State' pane-specification-id='0' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='color' w='12186' x='87205' y='9331'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97512' id='29' param='vert' type-v2='layout-flow' w='98782' x='609' y='1244'>
+                <zone fixed-size='280' h='41293' id='3' is-fixed='true' name='Tendence' w='86596' x='609' y='1244'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8087' id='24' type-v2='dashboard-object' w='12186' x='87205' y='1244'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{ED8BD433-2E5A-49A2-AEE2-632F76C5CAC9}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>&gt; Come Back</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#b07aa1' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56219' id='5' is-fixed='true' name='Employees/State' w='86596' x='609' y='42537'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10575' id='9' name='Employees/State' pane-specification-id='0' param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type-v2='color' w='12186' x='87205' y='9331'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CE669FBC-9E0B-4B4C-88C9-9AA57F51A50F}' />
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class='worksheet' name='Employee N°'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1rgdl3n0norabs162obc81cpk0es].[cnt:Id:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>22211</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{678BE96D-E8F0-4B01-AD0B-A469DC17DF2B}' />
+    </window>
+    <window class='worksheet' name='Active Employees'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1rgdl3n0norabs162obc81cpk0es].[none:Employement Status:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Employement Status:nk]</field>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D8995A07-BD82-48E0-B2CA-77881767AC93}' />
+    </window>
+    <window class='worksheet' name='Department Count'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1rgdl3n0norabs162obc81cpk0es].[ctd:Department:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0B57F42C-C349-4189-B757-412CFA0B0091}' />
+    </window>
+    <window class='worksheet' name='Employees/Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]</field>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B14A486A-05C4-4C1F-A870-6D522D5821A3}' />
+    </window>
+    <window class='worksheet' name='Employees/State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location State:nk]</field>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{89CA034F-1D8A-4009-A64D-27A49F3D49BC}' />
+    </window>
+    <window class='worksheet' name='Tree Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type='color' />
+            <card param='[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1rgdl3n0norabs162obc81cpk0es].[__tableau_internal_object_id__].[cnt:Employees_FC66C24DAD8E461FAFE3E1E9379A1105:qk]</field>
+                  <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location City:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16871</value>
+                <value>&quot;Cleveland&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Location City:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FE1CD6D-F66A-41B7-B711-B11B918A8DE6}' />
+    </window>
+    <window class='worksheet' name='Tendence'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='160' />
+        </edge>
+        <edge name='right'>
+          <strip size='160' />
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Gender:nk]</field>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[yr:Hire Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{836A7176-9158-4EB3-A309-17131B357B21}' />
+    </window>
+    <window class='worksheet' name='Histogramme'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rgdl3n0norabs162obc81cpk0es].[none:Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{64F28DE3-9AB6-4AC1-AC45-83889C59C2AE}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Employees HR'>
+      <viewpoints>
+        <viewpoint name='Active Employees'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Department Count'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Employee N°'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Employees/Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Employees/State'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Histogramme'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tendence'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tree Map'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{ED8BD433-2E5A-49A2-AEE2-632F76C5CAC9}' />
+    </window>
+    <window class='dashboard' name='Employees HR 2'>
+      <viewpoints>
+        <viewpoint name='Employees/State'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tendence'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{962F802E-272C-4AD9-BD66-5E1C8A264DC3}' />
+    </window>
+  </windows>
+</workbook>
